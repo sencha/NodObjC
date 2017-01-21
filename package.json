@@ -18,7 +18,7 @@
   "author": "Nathan Rajlich <nathan@tootallnate.net> (http://tootallnate.net)",
   "repository": {
     "type": "git",
-    "url": "git://github.com/TooTallNate/NodObjC.git"
+    "url": "git://github.com/craigcomstocks/NodObjC.git"
   },
   "main": "./lib/index.js",
   "scripts": {
@@ -26,16 +26,16 @@
   },
   "dependencies": {
     "debug": "*",
-    "ffi": "2",
-    "function-class": "^1.0.0",
-    "ref": "^1.3.2",
+    "ffi": "craigcomstocks/node-ffi#find-by-abi",
+    "function-class": "craigcomstocks/node-function-class#find-by-abi",
+    "ref": "craigcomstocks/ref#find-by-abi",
     "ref-struct": "^1.0.2",
     "setprototypeof": "^1.0.0"
   },
   "devDependencies": {
-    "libxmljs": "~0.14.3",
+    "libxmljs": "craigcomstocks/libxmljs#find-by-abi",
     "dox": "0.3.x",
-    "memwatch-next": "*",
+    "memwatch-next": "craigcomstocks/node-memwatch#find-by-abi",
     "highlight.js": "1",
     "jade": "0.25.x",
     "marked": "0.2.x"
