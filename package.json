@@ -18,7 +18,7 @@
   "author": "Nathan Rajlich <nathan@tootallnate.net> (http://tootallnate.net)",
   "repository": {
     "type": "git",
-    "url": "git://github.com/craigcomstocks/NodObjC.git"
+    "url": "git://github.com/sencha/NodObjC.git"
   },
   "main": "./lib/index.js",
   "scripts": {
@@ -26,16 +26,16 @@
   },
   "dependencies": {
     "debug": "*",
-    "ffi": "craigcomstocks/node-ffi#find-by-abi",
-    "function-class": "craigcomstocks/node-function-class#find-by-abi",
-    "ref": "craigcomstocks/ref#find-by-abi",
+    "ffi": "sencha/node-ffi#find-by-abi",
+    "function-class": "sencha/node-function-class#find-by-abi",
+    "ref": "sencha/ref#find-by-abi",
     "ref-struct": "^1.0.2",
     "setprototypeof": "^1.0.0"
   },
   "devDependencies": {
-    "libxmljs": "craigcomstocks/libxmljs#find-by-abi",
+    "libxmljs": "sencha/libxmljs#find-by-abi",
     "dox": "0.3.x",
-    "memwatch-next": "craigcomstocks/node-memwatch#find-by-abi",
+    "memwatch-next": "sencha/node-memwatch#find-by-abi",
     "highlight.js": "1",
     "jade": "0.25.x",
     "marked": "0.2.x"

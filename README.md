@@ -1,5 +1,7 @@
 NodObjC
 =======
+NOTE: for sencha/NodObjC we have not hosted the native devDependencies modules needed. This is left as an exercise for the reader/developer.
+
 ### The [Node.js][] ⇆ [Objective-C][ObjCWikipedia] bridge
 [![Build Status](https://travis-ci.org/TooTallNate/NodObjC.svg?branch=master)](https://travis-ci.org/TooTallNate/NodObjC)
 
